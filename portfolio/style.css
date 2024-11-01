@@ -1,0 +1,262 @@
+
+
+
+*{
+    margin:0;
+   
+}
+
+nav{
+    position:fixed;
+    background: linear-gradient(#222831,#393E46);
+    box-shadow: 0px 0px 100px black ;
+    width: 100%;
+    height: 290px;
+    font-family: sans-serif;
+    z-index: 1;
+}
+
+nav > b{
+    position: relative;
+    top: 45px;
+    left:120px;
+    
+    font-size: 1000%;
+    letter-spacing: 20px;
+     color: #3D5A80;
+}
+
+.option{
+    color: #bfbfbf;
+    letter-spacing: 20px;
+    position: relative;
+    left: 38%;
+    top: 25px;
+  
+    margin-left: 4.5%;
+    font-size: 570%;
+    text-align:right;
+    transition: 1s;
+    text-decoration: none;
+    opacity: .40;
+    transition: 1s;
+}
+
+.option:hover{
+    color:white;
+    text-shadow: 0px 0px 200px  white;
+    font-size: 680%;
+    opacity: 1;
+}
+
+.home{
+    width:100%;
+    height: 3100px;
+    background: linear-gradient(#1e293b,black);
+}
+
+.home-message{
+  position: relative;
+  top: 900px;
+  left:400px;
+  width: 50%;
+  height: 1400px;  
+}
+.hello{
+    color: white;
+    font-size: 600%;
+    font-family: monospace;
+    letter-spacing: 15px;
+    margin-left: 45px;
+}
+
+.name{
+    color:#d946ef;
+     font-size: 150%;
+     text-shadow: 0px 0px 30px #8B5FBF;
+}
+.stack{
+    color:#d946ef;
+    text-shadow: 0px 0px 30px #8B5FBF;
+}
+.hire{
+    position: relative;
+    top:110px;
+    width: 800px;
+    height: 150px;
+    padding: 90px;
+    background: linear-gradient(#d946ef,#8B5FBF);
+    font-size: 800%;
+    text-align: center;
+    border-radius: 100px;
+    box-shadow: 0px 0px 20px  #8B5FBF;
+    color: #D6C6E1;
+    text-shadow:0px 0px 10px  #8B5FBF ;
+    letter-spacing: 15px;
+    transition: 1s;
+}
+
+.hire:hover{
+    background: linear-gradient(#d946ef,rgb(207, 26, 235));
+    box-shadow: 0px 0px 200px  #d946ef;
+    color: white;
+}
+
+.home-message h1{
+    color: #9A73B5;
+    font-size: 3100%;
+    font-family: sans-serif;
+    font-weight: 1000;
+    letter-spacing: 15px;
+    line-height: 440px;
+}
+
+#mypic{
+    position: relative;
+    left: 60%;
+    bottom: 750px;
+    width: 2000px;
+    height: 2000px;
+    background-image: url("picture1.jpg");
+    background-size: 100%;
+    border-radius: 10%;
+    transition:1.50s;
+    box-shadow: 0px 0px 80px black inset;
+}
+
+/*
+.mypic:hover{
+    background-image: url("picture2.jpg");
+}*/
+
+.skills{
+
+    width:100%;
+    height: 2800px;
+    background-color: lightgray;
+    background-size: 100%;
+    background-image: url("bg.jpg");
+}
+
+.language{
+    position:relative;
+    top:150px;
+    left:30%;
+    height: 2300px;
+    width: 40%;
+    border-radius: 10%;
+    background: rgb(255, 255, 255,.20);
+    box-shadow: 0px 0px 30px black ;
+    font-size: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 0px 0px 15px white;
+    letter-spacing: 25px;
+
+}
+
+.language h1{
+    position: relative;
+    top:100px;
+   margin-bottom: 250px;
+
+}
+.language > img{
+    width: 480px;
+    height: 480px;
+    margin: 80px;
+    border-radius: 20%;
+    transition:1s;
+}
+   
+.language > img:hover{
+    position: relative;
+    width: 680px;
+    height: 680px;
+}
+    
+
+
+.about{
+    width:100%;
+    height: 2800px;
+    background: linear-gradient(black,#1e293b);
+    box-shadow: 0px 0px 10px black inset;
+  
+}
+.cat{
+    width: 50%;
+    height: 80%;
+    margin-top: 400px;
+    margin-left: 200px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 70px black inset;
+    float: left;
+}
+
+.textbox{
+    color:white;
+    position: relative;
+    top: 650px;
+    left: 100px; 
+    letter-spacing: 20px;
+ 
+}
+.textbox p{
+    font-size: 80px;
+    line-height: 130px;
+}
+
+.textbox h2{
+    font-family: sans-serif;
+    font-size: 180px;
+}
+
+
+.highlights{ 
+    color:#d946ef;
+    text-shadow: 0px 0px 30px #8B5FBF;
+}
+
+.contact{
+    height:1000px;
+    width: 100%;
+    background: black;
+}
+.contact h1{
+    position: relative;
+    
+    top:120px;
+    font-size: 120px;
+    font-family: sans-serif;
+    color:gray;
+    text-align: center;
+    letter-spacing: 20px;
+}
+.contact img{
+    position: relative;
+    top:240px;
+    left:36%;
+    margin-left:120px;
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 30%;
+    opacity: .40;
+    transition: 1s;
+}
+
+.contact img:hover{
+  box-shadow: 0px 0px 100px white;
+  opacity: 1;
+}
+
+.contact p{
+    position: relative;
+    top:350px;
+    font-size: 70px;
+    text-align: center;
+    color:gray;
+    line-height: 150px;
+}

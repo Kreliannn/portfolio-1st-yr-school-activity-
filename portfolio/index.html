@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> my portfolio </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <b class="title">My Portfolio</b>
+            <a class="option" href="#contact">Contact</a> 
+            <a class="option" href="#skills">skills</a> 
+            <a class="option" href="#about">About</a>
+            <a class="option" href="#home">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home-message">
+                <p class="hello"> Hello, i'm <b class="name">Krel </b> , future  </p>
+                <h1 > Full <font class="stack"> stack </font> <br> Developer  </h1>
+                <div class="hire" id="btn">  hire me </b> </div>
+            </div>     
+            <div id="mypic">
+
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="language">
+               <h1>skills</h1>
+                <img src="html.webp">
+                <img src="js.png">
+                <img src="css.jpg.png">
+                <br>
+                <img src="c++.png.png">
+                <img src="cc.jpg.png">
+             </div>
+        </section>
+        <section class="about" id="about">
+            <img src="cat.jpg" class="cat">
+            <div class="textbox">
+                <h2 >about me</h2>
+                <p >
+                <br>
+                Hello, I'm <font class="highlights">Krelian R Quimson</font>, a 19-year-old NCST <br> student. 
+                my dream is to become a <font class="highlights">full stack developer</font> . <br> With a strong work ethic and a 
+                dedication to learning, I'm committed to honing my skills in 
+                <font class="highlights"> both front-end <br> and back-end development </font> . 
+                Through my journey as a student and beyond, 
+                 I embrace challenges as  <br> opportunities for growth and innovation. <br>
+                 <font class="highlights"> Join me on my quest  </font> to turn dreams <br>
+                  into reality, one line of code <br> at a time.
+            </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contact" id="contact">
+            <h1> Message me </h1>
+            <img src="FBB.jpg">
+            <img src="IGG.png">
+            <img src="TGG.png">
+            <img src="GMAIL.png">
+            <img src="TWITTER.jpg">
+            <br>
+            <p>contact no: 09099897185</p>
+            <p>created by Krelian Quimson</p>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        let btn = document.getElementById('btn');
+        let pic = document.getElementById('mypic')
+            
+        btn.addEventListener('mouseover', ()=> {
+            pic.style.backgroundImage = "url('picture2.jpg')"
+        })
+
+        btn.addEventListener('mouseout', ()=> {
+            pic.style.backgroundImage = "url('picture1.jpg')"
+        })
+    </script>
+</body>
+</html>
